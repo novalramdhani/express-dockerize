@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon -L ./app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Noval Ramdhani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
