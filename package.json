@@ -1,12 +1,11 @@
 {
-  "name": "api",
+  "name": "express-dockerize",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express app with docker environment",
+  "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-    "dev": "nodemon -L ./app.js",
-    "test": "jest"
+    "dev": "nodemon -L ./app.js"
   },
   "keywords": [],
   "author": "Noval Ramdhani",
