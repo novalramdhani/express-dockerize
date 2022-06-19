@@ -4,13 +4,19 @@
   "description": "Express app with docker environment",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app.js",
-    "dev": "nodemon -L ./app.js"
+    "start": "node ./src/app.js",
+    "dev": "nodemon -L ./src/app.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Noval Ramdhani",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "superagent": "^7.1.6",
+    "supertest": "^6.2.3"
   }
 }

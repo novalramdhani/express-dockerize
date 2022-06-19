@@ -6,5 +6,5 @@ services:
     ports: 
       - '4000:4000'
     volumes:
-      - ./app
-      - ./node_modules
+      - ./src:/app
+      - .api/node_modules
