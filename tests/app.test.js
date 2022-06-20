@@ -6,6 +6,7 @@ describe('GET root path', function() {
       request(app)
         .get('/')
         .set('Accept', 'application/json')
+        .set('Content-Type', 'application/json')
         .expect('Content-Type', /json/)
         .expect(200, done);
     });
