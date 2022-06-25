@@ -23,6 +23,8 @@ npm run start
 yarn start
 ```
 
+Congrats!, your application running in `localhost:4000`
+
 ### With docker environment.
 Run docker compose with this command.
 ```bash
