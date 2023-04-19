@@ -29,7 +29,7 @@ Congrats!, your application running in `localhost:4000`
 Run docker compose with this command.
 ```bash
 docker-compose up
-# running in background
+# Running in background
 docker-compose up -d
 ```
 
